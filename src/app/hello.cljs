@@ -19,6 +19,6 @@
 
 (defn hello []
   [:<>
-   [:p "Hellasdo, this is running!"]
+   [:p "Hello, this is running!"]
    [:p "Here's an example of using a component with state:"]
    [click-counter click-count]])

@@ -37,7 +37,7 @@
 
 (deftest hello-tests-card
   (let [tr (render (r/as-element [hello]) #js {:container (testing-container)})]
-    (is (.queryByText tr #"Hello") "Should say 'Hello'")
+    (is (.queryByText tr #"foo") "Should say 'Hello'")
     (cleanup)))
 
 (deftest click-counter-tests-card
